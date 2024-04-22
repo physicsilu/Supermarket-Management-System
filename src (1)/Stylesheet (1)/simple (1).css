@@ -1,0 +1,46 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root{
+	-fx-color: #A0A0A0
+}
+
+.label {
+	-fx-text-fill: #4CAF50;
+	-fx-font-size: 14;
+	-fx-font-family: "Times New Roman";
+	-fx-alignment: center;
+}
+
+#welcomeLabel {
+	-fx-text-fill: #009688;
+	-fx-font-family: "Lato";
+	-fx-font-size: 40;
+	-fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #009688;
+    -fx-background-radius: 20;
+    -fx-padding: 10 20;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14px;
+    -fx-border-color: transparent;
+}
+
+.button:hover {
+    -fx-background-color: #00695C;
+}
+
+.text-field, .password-field {
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 1 0; 
+    -fx-border-color: #4CAF50;
+    -fx-prompt-text-fill: #4CAF50; 
+    -fx-opacity: 0.5;
+    -fx-text-fill: #4CAF50; /* Set text color */
+}
+
+.text-field:focused, .password-field:focused {
+	-fx-opacity: 1;
+	-fx-cursor: pointer;
+}
